@@ -1,7 +1,7 @@
-import { MockFetcher } from "./";
-import { MessageParser } from "./MessageParser";
-import { MessageSaver } from "./MessageSaver";
-import { FileProcessor } from "./FileProcessor";
+import { MockFetcher } from "./src/parcer/mockFetch";
+import { MessageParser } from "./src/parcer/messageParcer";
+import { MessageSaver } from "./src/parcer/messageSaver";
+import { FileProcessor } from "./src/parcer/fileProcesor";
 
 const main = async () => {
   const files = {
